@@ -1,677 +1,694 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul {
-    margin: 0px;
-    padding: 0px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0px;
+  padding: 0px;
 }
 
 header {
-    background-image: url("header_bg.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 90vh;
+  background-image: url("header_bg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background: #16151b;
 }
 
+
 .nav-link {
-    color: rgb(255, 255, 255);
-    text-transform: initial;
-    font-size: 16px;
-    position: relative;
-    padding: 0px !important;
+  color: rgb(255, 255, 255);
+  text-transform: initial;
+  font-size: 16px;
+  position: relative;
+  padding: 0px !important;
 }
 
 .nav-item {
-    margin-left: 18px;
+  margin-left: 18px;
 }
 
 .nav-link:hover {
-    color: rgb(11, 188, 247);
+  color: rgb(11, 188, 247);
 }
 
 .nav-link::before {
-    content: "";
-    position: absolute;
-    left: 0px;
-    bottom: -4px;
-    width: 0px;
-    height: 2px;
-    background-color: rgb(0, 153, 204);
-    transition: all 0.4s ease-in-out 0s;
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -4px;
+  width: 0px;
+  height: 2px;
+  background-color: rgb(0, 153, 204);
+  transition: all 0.4s ease-in-out 0s;
 }
 
 .nav-link::after {
-    content: "";
-    position: absolute;
-    right: 0px;
-    bottom: -4px;
-    width: 0px;
-    height: 2px;
-    background-color: rgb(0, 153, 204);
-    transition: all 0.4s ease-in-out 0s;
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: -4px;
+  width: 0px;
+  height: 2px;
+  background-color: rgb(0, 153, 204);
+  transition: all 0.4s ease-in-out 0s;
 }
 
 .nav-link:hover::before {
-    width: 47%;
+  width: 47%;
 }
 
 .nav-link:hover::after {
-    width: 47%;
+  width: 47%;
 }
 
 .banner {
-    align-items: center;
-    min-height: 90vh;
-    position: relative;
+  align-items: center;
+  min-height: 90vh;
+  position: relative;
 }
 
 .banner h4 {
-    color: rgb(0, 153, 204);
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+  color: rgb(0, 153, 204);
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .banner h1 {
-    color: rgb(255, 255, 255);
-    font-size: 40px;
-    margin: 15px 0px 20px;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  margin: 15px 0px 20px;
 }
 
 .banner p {
-    color: rgb(153, 153, 153);
-    margin-bottom: 30px;
+  color: rgb(153, 153, 153);
+  margin-bottom: 30px;
 }
 
 .btn_download {
-    background: rgb(0, 153, 204);
-    color: rgb(255, 255, 255);
-    padding: 12px 25px;
-    border-radius: 4px;
-    text-transform: uppercase;
-    border: 1px solid rgb(0, 153, 204);
-    font-size: 14px;
-    transition: all 0.4s ease-in-out 0s;
+  background: rgb(0, 153, 204);
+  color: rgb(255, 255, 255);
+  padding: 12px 25px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  border: 1px solid rgb(0, 153, 204);
+  font-size: 14px;
+  transition: all 0.4s ease-in-out 0s;
 }
 
 .btn_view {
-    background: transparent;
-    border: 1px solid rgb(102, 102, 102);
-    color: rgb(255, 255, 255);
-    padding: 12px 25px;
-    margin-left: 10px;
-    border-radius: 4px;
-    text-transform: uppercase;
-    font-size: 14px;
-    transition: all 0.4s ease-in-out 0s;
+  background: transparent;
+  border: 1px solid rgb(102, 102, 102);
+  color: rgb(255, 255, 255);
+  padding: 12px 25px;
+  margin-left: 10px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: all 0.4s ease-in-out 0s;
 }
 
 .btn_view:hover {
-    color: white;
-    background-color: rgb(0, 153, 204);
-    border-color: rgb(0, 153, 204);
+  color: white;
+  background-color: rgb(0, 153, 204);
+  border-color: rgb(0, 153, 204);
 }
 
 .btn_download:hover {
-    color: white;
-    border-color: rgb(102, 102, 102);
-    background: transparent;
+  color: white;
+  border-color: rgb(102, 102, 102);
+  background: transparent;
 }
 
 .phone {
-    position: absolute;
-    bottom: 0px;
-    right: 65px;
-    width: 35%;
+  position: absolute;
+  bottom: 0px;
+  right: 65px;
+  width: 35%;
 }
 
 .feature {
-    padding: 70px 0px;
+  padding: 70px 0px;
 }
 
 .heading {
-    text-align: center;
+  text-align: center;
 }
 
 .heading h4 {
-    color: rgb(0, 142, 214);
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
+  color: rgb(0, 142, 214);
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
 }
 
 .heading h1 {
-    font-size: 35px;
+  font-size: 35px;
 }
 
 .heading span {
-    display: block;
-    height: 2px;
-    width: 0px;
-    margin: 20px auto auto;
-    transition: all 1s ease-in-out 0s;
+  display: block;
+  height: 2px;
+  width: 0px;
+  margin: 20px auto auto;
+  transition: all 1s ease-in-out 0s;
 }
 
 .feature:hover .heading span {
-    width: 375px;
-    background: rgb(0, 142, 214);
+  width: 375px;
+  background: rgb(0, 142, 214);
 }
 
 .feature_item {
-    text-align: center;
+  text-align: center;
 }
 
 .icon_box {
-    height: 70px;
-    width: 70px;
-    border: 1px solid rgb(153, 153, 153);
-    border-radius: 50px;
-    text-align: center;
-    line-height: 60px;
-    color: rgb(0, 153, 204);
-    font-size: 24px;
-    margin: 70px auto 16px;
-    transition: all 0.3s ease-in-out 0s;
+  height: 70px;
+  width: 70px;
+  border: 1px solid rgb(153, 153, 153);
+  border-radius: 50px;
+  text-align: center;
+  line-height: 60px;
+  color: rgb(0, 153, 204);
+  font-size: 24px;
+  margin: 70px auto 16px;
+  transition: all 0.3s ease-in-out 0s;
 }
 
 .icon_box:hover {
-    background: rgb(11, 188, 247);
-    color: white;
-    border: 1px solid rgb(11, 188, 247);
+  background: rgb(11, 188, 247);
+  color: white;
+  border: 1px solid rgb(11, 188, 247);
 }
 
 .feature_item h2 {
-    margin-bottom: 5px;
-    font-weight: 400;
-    font-size: 24px;
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 24px;
 }
 
 .feature_item p {
-    color: rgb(153, 153, 153);
-    line-height: 25px;
-    font-size: 18px;
+  color: rgb(153, 153, 153);
+  line-height: 25px;
+  font-size: 18px;
 }
 
 .line {
-    background-color: rgba(153, 153, 153, 0.26);
-    height: 1px;
-    width: 100%;
-    margin-bottom: 80px;
+  background-color: rgba(153, 153, 153, 0.26);
+  height: 1px;
+  width: 100%;
+  margin-bottom: 80px;
 }
 
 .about_contant h4 {
-    color: rgb(0, 153, 204);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 400;
-    font-size: 14px;
-    margin-top: 50px;
+  color: rgb(0, 153, 204);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 50px;
 }
 
 .about_contant h1 {
-    font-size: 36px;
-    line-height: 65px;
-    margin-bottom: 14px;
+  font-size: 36px;
+  line-height: 65px;
+  margin-bottom: 14px;
 }
 
 .about_contant span {
-    display: block;
-    width: 60px;
-    background: rgb(255, 255, 255);
-    height: 3px;
-    position: relative;
+  display: block;
+  width: 60px;
+  background: rgb(255, 255, 255);
+  height: 3px;
+  position: relative;
 }
 
 .about_contant span::before {
-    content: "";
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    width: 0px;
-    height: 3px;
-    background-color: rgb(0, 153, 204);
-    transition: all 0.4s ease-in-out 0s;
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 0px;
+  height: 3px;
+  background-color: rgb(0, 153, 204);
+  transition: all 0.4s ease-in-out 0s;
 }
 
 .about_contant span::after {
-    content: "";
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    width: 0px;
-    height: 3px;
-    background-color: rgb(0, 153, 204);
-    transition: all 0.4s ease-in-out 0s;
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 0px;
+  height: 3px;
+  background-color: rgb(0, 153, 204);
+  transition: all 0.4s ease-in-out 0s;
 }
 
 .span_hover:hover span::before {
-    width: 47%;
-    background: rgb(0, 153, 204);
+  width: 47%;
+  background: rgb(0, 153, 204);
 }
 
 .span_hover:hover span::after {
-    width: 47%;
-    background: rgb(0, 153, 204);
+  width: 47%;
+  background: rgb(0, 153, 204);
 }
 
 .about_contant p {
-    font-size: 18px;
-    color: rgb(153, 153, 153);
-    margin-top: 14px;
-    margin-bottom: 34px;
+  font-size: 18px;
+  color: rgb(153, 153, 153);
+  margin-top: 14px;
+  margin-bottom: 34px;
 }
 
 .about_contant ul {
-    list-style: none;
-    line-height: 35px;
+  list-style: none;
+  line-height: 35px;
 }
 
 .about_contant ul li i {
-    color: rgb(51, 153, 204);
-    margin-right: 15px;
+  color: rgb(51, 153, 204);
+  margin-right: 15px;
 }
 
 .about_2 {
-    background-color: rgba(204, 204, 204, 0.486);
-    min-height: 40vh;
+  background-color: rgba(204, 204, 204, 0.486);
+  min-height: 40vh;
 }
 
 .about_2 h4 {
-    color: rgb(0, 153, 204);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 500;
-    font-size: 14px;
-    margin-top: 80px;
-    margin-bottom: 15px;
+  color: rgb(0, 153, 204);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 80px;
+  margin-bottom: 15px;
 }
 
 .about_2 h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
 .about_2 p {
-    font-size: 18px;
-    color: rgb(153, 153, 153);
-    margin-top: 20px;
-    font-weight: 400;
+  font-size: 18px;
+  color: rgb(153, 153, 153);
+  margin-top: 20px;
+  font-weight: 400;
 }
 
 .about_2 span {
-    display: block;
-    width: 60px;
-    background-color: rgba(204, 204, 204, 0);
-    height: 3px;
-    position: relative;
+  display: block;
+  width: 60px;
+  background-color: rgba(204, 204, 204, 0);
+  height: 3px;
+  position: relative;
 }
 
 .about_2 span::before {
-    content: "";
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    width: 0px;
-    height: 3px;
-    background-color: rgb(0, 153, 204);
-    transition: all 0.4s ease-in-out 0s;
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 0px;
+  height: 3px;
+  background-color: rgb(0, 153, 204);
+  transition: all 0.4s ease-in-out 0s;
 }
 
 .about_2 span::after {
-    content: "";
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    width: 0px;
-    height: 3px;
-    background-color: rgb(0, 153, 204);
-    transition: all 0.4s ease-in-out 0s;
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 0px;
+  height: 3px;
+  background-color: rgb(0, 153, 204);
+  transition: all 0.4s ease-in-out 0s;
 }
 
 .span:hover:hover span::before {
-    width: 47%;
-    background: rgb(0, 153, 204);
+  width: 47%;
+  background: rgb(0, 153, 204);
 }
 
 .span:hover:hover span::after {
-    width: 47%;
-    background: rgb(0, 153, 204);
+  width: 47%;
+  background: rgb(0, 153, 204);
 }
 
 .about_2 img {
-    width: 625px;
-    margin-top: 20px;
+  width: 625px;
+  margin-top: 20px;
 }
 
 .pricing {
-    background-image: url("testimonials_bg.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 90vh;
+  background-image: url("testimonials_bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 90vh;
 }
 
 .pricing_one {
-    text-align: center;
+  text-align: center;
 }
 
 .pricing_one h4 {
-    font-size: 14px;
-    color: rgb(0, 153, 204);
-    text-transform: uppercase;
-    margin-top: 55px;
-    line-height: 35px;
+  font-size: 14px;
+  color: rgb(0, 153, 204);
+  text-transform: uppercase;
+  margin-top: 55px;
+  line-height: 35px;
 }
 
 .pricing_one h1 {
-    font-size: 36px;
-    color: rgb(255, 255, 255);
-    font-weight: 400;
+  font-size: 36px;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
 }
 
 .pricing span {
-    display: block;
-    width: 60px;
-    background: transparent;
-    height: 3px;
-    position: relative;
-    margin: 30px auto auto;
+  display: block;
+  width: 60px;
+  background: transparent;
+  height: 3px;
+  position: relative;
+  margin: 30px auto auto;
 }
 
 .pricing span::before {
-    content: "";
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    width: 0px;
-    height: 3px;
-    background-color: rgb(0, 153, 204);
-    transition: all 0.4s ease-in-out 0s;
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 0px;
+  height: 3px;
+  background-color: rgb(0, 153, 204);
+  transition: all 0.4s ease-in-out 0s;
 }
 
 .pricing span::after {
-    content: "";
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    width: 0px;
-    height: 3px;
-    background-color: rgb(0, 153, 204);
-    transition: all 0.4s ease-in-out 0s;
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 0px;
+  height: 3px;
+  background-color: rgb(0, 153, 204);
+  transition: all 0.4s ease-in-out 0s;
 }
 
 .pricing:hover span::before {
-    width: 47%;
-    background: rgb(0, 153, 204);
+  width: 47%;
+  background: rgb(0, 153, 204);
 }
 
 .pricing:hover span::after {
-    width: 47%;
-    background: rgb(0, 153, 204);
+  width: 47%;
+  background: rgb(0, 153, 204);
 }
 
 .pricing p {
-    color: rgba(255, 255, 255, 0.92);
-    font-size: 22px;
-    margin-top: 40px;
-    font-weight: 350;
-    font-style: italic;
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 22px;
+  margin-top: 40px;
+  font-weight: 350;
+  font-style: italic;
 }
 
 .flex {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .flex img {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 .flex h5 {
-    color: rgba(255, 255, 255, 0.92);
-    font-weight: 400;
-    line-height: 35px;
+  color: rgba(255, 255, 255, 0.92);
+  font-weight: 400;
+  line-height: 35px;
 }
 
 .flex h3 {
-    font-size: 20px;
-    color: rgba(255, 255, 255, 0.92);
-    font-weight: 400;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.92);
+  font-weight: 400;
 }
 
 .elipsa img {
-    display: block;
-    height: 22px;
-    margin: 100px auto auto;
+  display: block;
+  height: 22px;
+  margin: 100px auto auto;
 }
 
 .pricing_footer {
-    background-color: rgb(0, 0, 0);
-    min-height: 20vh;
-    align-items: center;
-    margin: auto;
+  background-color: rgb(0, 0, 0);
+  min-height: 20vh;
+  align-items: center;
+  margin: auto;
 }
 
 .pricing_footer h1 {
-    text-align: center;
-    font-weight: 400;
-    color: white;
-    margin-top: 4%;
+  text-align: center;
+  font-weight: 400;
+  color: white;
+  margin-top: 4%;
 }
 
 .pricing_footer a {
-    align-items: center;
+  align-items: center;
 }
 
 .pricing_footer span {
-    color: rgb(255, 255, 255);
-    font-weight: 300;
+  color: rgb(255, 255, 255);
+  font-weight: 300;
 }
 
 .btn2_download {
-    background: rgb(0, 153, 204);
-    color: rgb(255, 255, 255);
-    padding: 12px 25px;
-    border-radius: 4px;
-    text-transform: uppercase;
-    border: 1px solid rgb(0, 153, 204);
-    font-size: 14px;
-    transition: all 0.4s ease-in-out 0s;
-    margin-top: 37px;
-    margin-left: 15px;
+  background: rgb(0, 153, 204);
+  color: rgb(255, 255, 255);
+  padding: 12px 25px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  border: 1px solid rgb(0, 153, 204);
+  font-size: 14px;
+  transition: all 0.4s ease-in-out 0s;
+  margin-top: 37px;
+  margin-left: 15px;
 }
 
 .btn2_view {
-    background: transparent;
-    border: 1px solid rgb(102, 102, 102);
-    color: rgb(255, 255, 255);
-    padding: 12px 25px;
-    border-radius: 4px;
-    text-transform: uppercase;
-    font-size: 14px;
-    transition: all 0.4s ease-in-out 0s;
-    margin-top: 37px;
-    margin-left: 15px;
+  background: transparent;
+  border: 1px solid rgb(102, 102, 102);
+  color: rgb(255, 255, 255);
+  padding: 12px 25px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: all 0.4s ease-in-out 0s;
+  margin-top: 37px;
+  margin-left: 15px;
 }
 
 .btn2_view:hover {
-    color: white;
-    background-color: rgb(0, 153, 204);
-    border-color: rgb(0, 153, 204);
-    margin-top: 37px;
-    margin-left: 15px;
+  color: white;
+  background-color: rgb(0, 153, 204);
+  border-color: rgb(0, 153, 204);
+  margin-top: 37px;
+  margin-left: 15px;
 }
 
 .btn2_download:hover {
-    color: white;
-    border-color: rgb(102, 102, 102);
-    background: transparent;
-    margin-top: 37px;
-    margin-left: 15px;
+  color: white;
+  border-color: rgb(102, 102, 102);
+  background: transparent;
+  margin-top: 37px;
+  margin-left: 15px;
 }
 
 .contact {
-    min-height: 160vh;
+  min-height: 160vh;
 }
 
 .contact_row1 {
-    text-align: center;
+  text-align: center;
 }
 
 .contact_row1 h4 {
-    color: rgb(0, 142, 214);
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 0px;
-    margin-top: 50px;
-    font-weight: 400;
+  color: rgb(0, 142, 214);
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  margin-top: 50px;
+  font-weight: 400;
 }
 
 .contact_row1 h1 {
-    font-weight: 400;
-    margin-bottom: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
 }
 
 .contact_row1 span {
-    display: block;
-    width: 60px;
-    background-color: rgba(204, 204, 204, 0);
-    height: 3px;
-    position: relative;
-    margin: auto;
+  display: block;
+  width: 60px;
+  background-color: rgba(204, 204, 204, 0);
+  height: 3px;
+  position: relative;
+  margin: auto;
 }
 
 .contact_row1 span::before {
-    content: "";
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    width: 0px;
-    height: 3px;
-    background-color: rgb(0, 153, 204);
-    transition: all 0.4s ease-in-out 0s;
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 0px;
+  height: 3px;
+  background-color: rgb(0, 153, 204);
+  transition: all 0.4s ease-in-out 0s;
 }
 
 .contact_row1 span::after {
-    content: "";
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    width: 0px;
-    height: 3px;
-    background-color: rgb(0, 153, 204);
-    transition: all 0.4s ease-in-out 0s;
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 0px;
+  height: 3px;
+  background-color: rgb(0, 153, 204);
+  transition: all 0.4s ease-in-out 0s;
 }
 
 .contact:hover span::before {
-    width: 47%;
-    background: rgb(0, 153, 204);
+  width: 47%;
+  background: rgb(0, 153, 204);
 }
 
 .contact:hover span::after {
-    width: 47%;
-    background: rgb(0, 153, 204);
+  width: 47%;
+  background: rgb(0, 153, 204);
 }
 
 .contact_item {
-    text-align: center;
+  text-align: center;
 }
 
 .contact_row2 p {
-    color: rgb(153, 153, 153);
-    line-height: 25px;
-    font-size: 18px;
+  color: rgb(153, 153, 153);
+  line-height: 25px;
+  font-size: 18px;
 }
 
 .contact_icon {
-    height: 70px;
-    width: 70px;
-    border-radius: 50px;
-    text-align: center;
-    line-height: 60px;
-    color: rgb(0, 153, 204);
-    font-size: 40px;
-    margin: 70px auto 4px;
-    transition: all 0.3s ease-in-out 0s;
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 60px;
+  color: rgb(0, 153, 204);
+  font-size: 40px;
+  margin: 70px auto 4px;
+  transition: all 0.3s ease-in-out 0s;
 }
 
 .form_bg {
-    padding: 50px;
-    margin-top: 40px;
-    background: rgb(0, 0, 0) !important;
+  padding: 50px;
+  margin-top: 40px;
+  background: rgb(0, 0, 0) !important;
 }
 
 .form_row {
-    display: flex;
+  display: flex;
 }
 
-.form_left, .form_right {
-    flex-basis: 50%;
+.form_left,
+.form_right {
+  flex-basis: 50%;
 }
 
 .form_group input {
-    width: 290px;
-    margin-bottom: 15px;
-    line-height: 3;
-    border-radius: 5px;
-    background: transparent;
-    outline: none;
-    border: 1px solid rgb(51, 51, 51);
-    color: white;
-    padding-left: 10px;
+  width: 290px;
+  margin-bottom: 15px;
+  line-height: 3;
+  border-radius: 5px;
+  background: transparent;
+  outline: none;
+  border: 1px solid rgb(51, 51, 51);
+  color: white;
+  padding-left: 10px;
 }
 
 .form_right textarea {
-    width: 315px;
-    border-radius: 4px;
-    background: transparent;
-    outline: none;
-    border: 1px solid rgb(51, 51, 51);
-    color: white;
-    padding-left: 10px;
+  width: 315px;
+  border-radius: 4px;
+  background: transparent;
+  outline: none;
+  border: 1px solid rgb(51, 51, 51);
+  color: white;
+  padding-left: 10px;
 }
 
 .form_right input {
-    color: white;
-    background: rgb(0, 153, 204);
-    padding: 15px 34px;
-    border-radius: 4px;
-    margin-left: 133px;
-    margin-top: 10px;
-    text-transform: uppercase;
-    transition: .3s all ease-in-out;
+  color: white;
+  background: rgb(19 196 255 / 75%);
+  padding: 15px 34px;
+  border-radius: 4px;
+  margin-left: 133px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  transition: 0.3s all ease-in-out;
+  border-style: none;
 }
 
-.form_right input:hover{
- background: #055f7efd;
+.form_right input:hover {
+  background: #00b7f661;
 }
-
 
 /* Footer_section */
 .footer_bg {
-    background-color: rgb(0, 0, 0);
-    min-height: 15vh;
+  background-color: rgb(0, 0, 0);
+  min-height: 15vh;
 }
 
 .footer_icon {
-    text-align: center;
-    line-height: 40px;
-    padding-top: 20px;
+  text-align: center;
+  line-height: 40px;
+  padding-top: 20px;
 }
 
 .copy_right {
-    text-align: center;
+  text-align: center;
 }
 
 .footer_icon i {
-    margin-left: 18px;
-    margin-right:18px
+  margin-left: 18px;
+  margin-right: 18px;
 }
-#icon_color{
-    color: #0099cc;
+#icon_color {
+  color: #0099cc;
 }

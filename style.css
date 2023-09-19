@@ -129,12 +129,15 @@ header {
   color: white;
   background-color: rgb(0, 153, 204);
   border-color: rgb(0, 153, 204);
+      box-shadow: 0px 10px 40px 0px #0099ccab;
 }
 
 .btn_download:hover {
   color: white;
   border-color: rgb(102, 102, 102);
   background: transparent;
+  box-shadow: 0px 10px 40px 0px #0099ccab;
+  
 }
 
 .phone {
@@ -521,6 +524,7 @@ header {
   border-color: rgb(0, 153, 204);
   margin-top: 37px;
   margin-left: 15px;
+  box-shadow: 0px 10px 40px 0px #0099ccab;
 }
 
 .btn2_download:hover {
@@ -529,6 +533,7 @@ header {
   background: transparent;
   margin-top: 37px;
   margin-left: 15px;
+  box-shadow: 0px 10px 40px 0px #0099ccab;
 }
 
 .contact {
@@ -667,6 +672,7 @@ header {
 
 .form_right input:hover {
   background: #00b7f661;
+  box-shadow: 0px 10px 40px 0px #0099ccab;
 }
 
 /* Footer_section */

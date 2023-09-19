@@ -15,6 +15,7 @@ ul {
   padding: 0px;
 }
 
+/* Header_section */
 header {
   background-image: url("header_bg.png");
   background-position: center center;
@@ -23,14 +24,13 @@ header {
   min-height: 100vh;
 }
 .fixed-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-    background: #16151b;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  background: #16151b;
 }
-
 
 .nav-link {
   color: rgb(255, 255, 255);
@@ -78,6 +78,7 @@ header {
   width: 47%;
 }
 
+/* header_banner_section */
 .banner {
   align-items: center;
   min-height: 100vh;
@@ -129,7 +130,7 @@ header {
   color: white;
   background-color: rgb(0, 153, 204);
   border-color: rgb(0, 153, 204);
-      box-shadow: 0px 10px 40px 0px #0099ccab;
+  box-shadow: 0px 10px 40px 0px #0099ccab;
 }
 
 .btn_download:hover {
@@ -137,16 +138,18 @@ header {
   border-color: rgb(102, 102, 102);
   background: transparent;
   box-shadow: 0px 10px 40px 0px #0099ccab;
-  
 }
 
 .phone {
   position: absolute;
   bottom: 0px;
   right: 65px;
-  width: 35%;
+  width: 36%;
 }
 
+
+
+/* Feature_section */
 .feature {
   padding: 70px 0px;
 }
@@ -222,6 +225,8 @@ header {
   margin-bottom: 80px;
 }
 
+
+/* About_section */
 .about_contant h4 {
   color: rgb(0, 153, 204);
   text-transform: uppercase;
@@ -294,6 +299,8 @@ header {
   margin-right: 15px;
 }
 
+
+/* About_section_2 */
 .about_2 {
   background-color: rgba(204, 204, 204, 0.486);
   min-height: 40vh;
@@ -366,6 +373,9 @@ header {
   margin-top: 20px;
 }
 
+
+
+/* Pricing_section */
 .pricing {
   background-image: url("testimonials_bg.jpg");
   background-position: center center;
@@ -469,6 +479,9 @@ header {
   margin: 100px auto auto;
 }
 
+
+
+/* <!--pricing-footer_section --> */
 .pricing_footer {
   background-color: rgb(0, 0, 0);
   min-height: 20vh;
@@ -536,6 +549,9 @@ header {
   box-shadow: 0px 10px 40px 0px #0099ccab;
 }
 
+
+
+/* <!-- contacts_section --> */
 .contact {
   min-height: 160vh;
 }
@@ -621,6 +637,9 @@ header {
   transition: all 0.3s ease-in-out 0s;
 }
 
+
+
+/*  <!--contact_form --> */
 .form_bg {
   padding: 50px;
   margin-top: 40px;
